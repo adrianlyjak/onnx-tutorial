@@ -1,0 +1,28 @@
+[project]
+name = "onnx-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Adrian Lyjak", email = "adrian@chatmeter.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.2",
+    "onnx>=1.17.0",
+    "onnxruntime>=1.20.1",
+    "pillow>=11.1.0",
+    "requests>=2.32.3",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+]
+
+[project.scripts]
+onnx = "onnx_tutorial:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

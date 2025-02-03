@@ -1,0 +1,5 @@
+_static
+__pycache__
+.venv
+*.onnx
+*.pth
