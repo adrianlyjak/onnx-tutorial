@@ -3,3 +3,7 @@ __pycache__
 .venv
 *.onnx
 *.pth
+*.json
+.env
+logs/
+__pycache__/
